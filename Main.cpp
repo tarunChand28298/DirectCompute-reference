@@ -213,4 +213,6 @@ int main()
 	std::cin.get();
 }
 
-//TODO: to implement resizing of input and output buffers.
+//To implement resizing of input and output buffers,
+	//either create at largest size required and leave some space unused, 
+	//or destroy and recreate the buffers.
